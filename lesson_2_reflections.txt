@@ -10,3 +10,21 @@ R: The staging area is the intermediary between the working directory and the re
 holds the files that you are ready to commit to the repository. This staging area allows for 
 flexibility in deciding which files to commit. Without it, every commit would take a snapshot
 of every file in the working directory which may be undesirable.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+R: The staging area holds all the files that you actually want to commit. So if you make changes
+in two different files that don't logically relate, you can add just one to the staging area to 
+make one commit, and then add the other afterwards to make a separate commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+R: Branches can create separate paths for your project in which you can introduce experimental
+changes without worrying about breaking the core project. This way you can track two histories
+of different versions which you can also then merge later.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+R: Diagrams show you where commits will show up through reachability. Showing how branches look
+visually helps with understanding it conceptually.

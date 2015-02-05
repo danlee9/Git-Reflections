@@ -1,0 +1,42 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was
+introduced?
+
+R: Using a diff (or cf from windows command prompt) saved a lot of time from going through
+code line by line because it points out differences for you. That way you can skip over code
+that hasn't changed.
+
+Q: How could having easy access to the entire history of a file make you a more efficient 
+programmer in the long term?
+
+R: Having an entire history means not having to stress about different changes and allows you
+to test out different ideas and functions without worrying about losing previous work.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like 
+you do in Git, vs having versions automatically saved, like Google docs does?
+
+R: Having things automatically saved is good because it might save time but some times these 
+saves might not be logical. Making manual commits gives you more flexibility and more logical
+commits but it requires thought and you can make mistakes.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one 
+commit, while others, like Google Docs, treat each file separately?
+
+R: It's probably because each usually deals with certain types of projects. Google Docs usually 
+has files that can be standalone where as in programming, there are interrelated files that 
+work together.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+R: Using git log will list all commits and their ids and you can use git diff to compare 
+different commits using their ids.
+
+Q: How might using version control make you more confident to make changes that could break
+something?
+
+R: By saving commits, if ever find that I come across a bug in a current commit, I can checkout
+previous commits to see if they had the bug as well. Then I can find exactly which commit 
+introduced the bug and I can use a git diff to see what changes were made.
+
+Q: Now that you have your workspace set up, what do you want to try using git for?
+
+R: I would like to work on some small projects to develop web apps.

@@ -1,0 +1,12 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+R: Initializing a repository creates a hidden git file. This hidden git file is important 
+because it tracks all the different snapshots or commits of your group of files.
+
+Q: How is the staging area different from the working directory and the repository? What value
+do you think it offers?
+
+R: The staging area is the intermediary between the working directory and the repository. It 
+holds the files that you are ready to commit to the repository. This staging area allows for 
+flexibility in deciding which files to commit. Without it, every commit would take a snapshot
+of every file in the working directory which may be undesirable.

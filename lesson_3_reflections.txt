@@ -25,3 +25,11 @@ R: Having a copy of the last known state of the remote stored locally let's us f
 changes without merging right away to the actual branch. A local copy of the remote branch 
 also allows us to make changes which will be able to merge with a remote repository when 
 trying to pull.
+
+Q: How would you collaborate without using Git or Github? What would be easier, and what would 
+be harder?
+
+R: Without Git or Github, I would probably collaborate by having copies of something and 
+sending my work to a central hub. This would probably make things less entangled but it makes 
+things less mobile and requires being near the central computer.
+

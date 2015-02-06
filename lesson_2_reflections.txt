@@ -28,3 +28,15 @@ Q: How do the diagrams help you visualize the branch structure?
 
 R: Diagrams show you where commits will show up through reachability. Showing how branches look
 visually helps with understanding it conceptually.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+R: The branches are combined and all the code are put into one branch. Sometimes there are 
+conficts but we haven't encountered them yet in our lesson so far. The old commits are still 
+there, it's just that a new commit that incorporates all those old commits is made to include 
+code in the branch that is being merged to.
+
+Q: What are the pros and cons of the Git's automatic merging vs. always doing merges manually?
+
+R: Automatic merging would save time but it could make huge mistakes. Doing merges manually 
+protects against that by making sure the code actually work together.

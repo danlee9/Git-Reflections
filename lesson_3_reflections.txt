@@ -18,3 +18,10 @@ Branches can be used to make experimental changes to a group of files. Clones ca
 that someone else can also make changes to a group of files in their own repository. Forks can 
 be used to copy someone's repository and make changes to those files on your own without 
 altering their files.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+R: Having a copy of the last known state of the remote stored locally let's us fetch and make 
+changes without merging right away to the actual branch. A local copy of the remote branch 
+also allows us to make changes which will be able to merge with a remote repository when 
+trying to pull.

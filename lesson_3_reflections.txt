@@ -33,3 +33,11 @@ R: Without Git or Github, I would probably collaborate by having copies of somet
 sending my work to a central hub. This would probably make things less entangled but it makes 
 things less mobile and requires being near the central computer.
 
+Q: When would you want to make changes in a separate branch rather than directly in master? 
+What benefit does each approach have?
+
+R: Making changes in a separate branch gives you more freedom to make experimental changes 
+without worrying about breaking the main branch. Making changes directly to master removes 
+the step of having to merge but creates the possibility of breaking the master branch. 
+Making changes to the master branch should probably be kept to smaller changes that are 
+sure not to break anything.
